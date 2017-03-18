@@ -1,0 +1,502 @@
+<html>
+  <head>
+     <title> Online </title>
+     <style type="text/css">
+       body{
+        background-image: url(2.jpg);
+        background-size: 100% 100%;
+       }
+       #wrapper{
+       display:-webkit-box;
+       width:100%;
+      -webkit-box-flex:1;
+      }
+      .size{
+        padding: 5px 25px;
+      }
+     </style>
+     <script>
+
+    var q=["1) The equivalent pointer expression by using the array element a[i][j][k][2]",
+           "2)  -----------Java Script is also called client-side JavaScript",
+           "3)  What is the output of the following program?<br><br>#include&lt;stdio.h&gt;<br>main()<br>{<br>&nbsp;&nbsp;&nbsp;#undef NULL<br>&nbsp;&nbsp;&nbsp;char *s = \"Cascade\";<br>&nbsp;&nbsp;&nbsp;while(*s != NULL)<br>&nbsp;&nbsp;&nbsp;printf(\"%c\", *s++);<br>}",
+           "4)  What does AWT stands for?",
+           "5)  Which of the following is false about protected keyword?",
+           "6)  Which line of the below program shows compilation error?<br><br>1...public class Test<br>2...{<br>3...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static<br>4...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>5...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d = 10;<br>6...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(d);<br>7...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>8...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static double d;<br>9...}<br>",
+           "7)  What is the output of the following code snippet?<br><br>#include&lt;stdio.h&gt;<br>main()<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char c = 'A'+255;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(\"%c\", c);<br>}",
+           "8)  What will be the output of this programme?<br><br>public class Test<br>{<br>&nbsp;void methodofTest(int i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(1);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;void methodofTest(Integer i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(2);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;void methodofTest(object o)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(3);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>public static void main(String args[])<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test t = new Test();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;t.methodOfTest(10);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;t.methodOfTest(10.25);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;t.methodOfTest(new Double(\"25.25\"));<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "9)  What will be the output of this program?<br><br>public class A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int m;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double n;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public A(int i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m = i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public A(double d)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n = d;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(m);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(n);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A a1 = new A(500);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A a2 = new A(50.0);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(a1.m+\" &#58; \"+a1.n);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(a2.m+\" &#58; \"+a2.n);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "10)  What will be the outcome of the following program?<br><br>class A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void methodOne()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class LocalInnerClass<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i = 20;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void methodTwo()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(new LocalInnerClass().i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>public class Test<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A a = new A();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.methodTwo();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "11)  What will be the output of this program?<br><br>class A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public A(int i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.i = i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>class B extends A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i = 20;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public B(int i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super(i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.i = super.i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>public class Test<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B b = new B(10);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(b.i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "12)  What will be the output of this program?<br><br>class A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static String s = \"AAA\";<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s + \"BBB\";<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = \"AAABBB\";<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>class B extends A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s + \"BBBAAA\";<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(s);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>public class MainClass<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B b = new B();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "13)  What will be the output of this program?<br><br>public class MainClass<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static int i = 1;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = i-- + --i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = i++ - ++i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int methodOfTest()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i + i - i * i / i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(new MainClass().methodOfTest());<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "14)  What will be the output of this program?<br><br>abstract class X<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i = 11;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int methodOneOfX()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return i *= i /= i;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abstract void methodTwoOfX(int i);<br>}<br>class Y extends X<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void methodTwoOfX(int i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br>public class Test<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new Y().methodTwoOfX(new Y().methodOneOfX());<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}",
+           "15)  What will be the output of this code?<br><br>class A<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B b;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i = 10;<br>}<br>class B<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A a;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i = 20;<br>}<br>public class Test<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A a = new A();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B b = new B();<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a.b = b;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b.a = a;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(a.b.a.b.a.i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(b.a.b.a.b.i);<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}"
+
+
+     ];
+    var op1=["((((a+m)+n)+o)+p)","Microsoft","Cascade","All Window Tools","Inner Class can be protected","3","A","1 2 3","500:0.0&nbsp;&nbsp;&nbsp;0:50.0","20","10","AAABBBBBBAAA","1","121","20 10"];
+    var op2=["*(*(*(*(a+i)+j)+k)+2)","Navigator","Compile error: there is no macro called “undef”","All Writing Tools","Outer Class can be protected","5","B","2 2 3","0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;500:0.0&nbsp;&nbsp;&nbsp;0:50.0","Run time Error","20","BBBAAAAAABBB","0","22","10 20"];
+    var op3=["*((((a+m)+n)+o+p)","LineWire","Compile error: improper place of #undef","Abstract Window Toolkit","We can create sub classes to a class which has only  protected constructors","6","Overflow error at runtime","1 3 3","0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;500:0.0&nbsp;&nbsp;&nbsp;0:50.0","0","Compile Time Error","AAABBB","-1","11","10 10"];
+    var op4=["*(((a+m)+n+o+p)","Native","Compile error: NULL is undeclared","Abstract Writing Toolkit","We can’t instantiate a class outside the package which has only protected constructors","8","Compile Error","2 3 3","0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;500:0.0&nbsp;&nbsp;&nbsp;0:50.0","Compile Time Error","Run Time Error","BBBAAA","-2","1","20 20"];
+    var qno=-1;
+    var sub=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    
+    var ans=["*(*(*(*(a+i)+j)+k)+2)","Navigator","Compile error: NULL is undeclared","Abstract Window Toolkit","Outer Class can be protected","6","A","1 3 3","0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;0.0&nbsp;&nbsp;&nbsp;500:0.0&nbsp;&nbsp;&nbsp;0:50.0","Compile Time Error","10","AAABBB","-2","11","10 20"];
+    var uans=["","","","","","","","","","","","","","",""];
+    var count=0;
+    function validate()
+    {
+      
+      var t = document.getElementsByTagName("input");
+      if(sub[qno]==0)
+      {
+        alert("Question submitted !!!");
+      sub[qno]=1;
+      for(var k=0 ; k<t.length;k++)
+      {
+        if(t[k].type=="radio")
+        {
+           if(t[k].checked)
+           {
+           uans[qno]=t[k].value;
+           if(ans[qno]==uans[qno])
+           count=count+1;
+           else
+           count=count;
+          }
+        }
+
+      }
+     }
+    else
+    {
+      alert("Already Submitted!!!");
+    }
+
+    }
+
+    function next()
+     {
+      qno++;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next1()
+     {
+      qno=0;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next2()
+     {
+      qno=1;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next3()
+     {
+      qno=2;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next4()
+     {
+      qno=3;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next5()
+     {
+      qno=4;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next6()
+     {
+      qno=5;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next7()
+     {
+      qno=6;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next8()
+     {
+      qno=7;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next9()
+     {
+      qno=8;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next10()
+     {
+      qno=9;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next11()
+     {
+      qno=10;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next12()
+     {
+      qno=11;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next13()
+     {
+      qno=12;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next14()
+     {
+      qno=13;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function next15()
+     {
+      qno=14;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("Questions are completed !!!"+"  "+"Your Score is ::"+count);
+     }
+    }
+    function prev()
+     {
+      qno--;
+      if((qno>=0)&&(qno<=14))
+      {
+      document.getElementById("Question").innerHTML=q[qno];
+      document.getElementById("opt1").value = op1[qno];
+      document.getElementById("ch1").innerHTML = op1[qno];
+      document.getElementById("opt2").value = op2[qno];
+      document.getElementById("ch2").innerHTML = op2[qno];
+      document.getElementById("opt3").value = op3[qno];
+      document.getElementById("ch3").innerHTML = op3[qno];
+      document.getElementById("opt4").value = op4[qno];
+      document.getElementById("ch4").innerHTML = op4[qno];
+     }
+     else
+     {
+      window.alert("No more previous questions !!!");
+     }
+    }
+  
+    
+    function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer=duration;
+            alert("Exam Completed....your score is::"+count);
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var fiveMinutes = 60 * 45,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+    
+};
+     </script>
+  </head>
+  <body>
+    <h1 align="center" style="font-size: 75px;">CASCADE CLUB</h1>
+    <div style="float: right; font-size: 25px;">Competition ends in <span id="time"></span> minutes!</div><br><br><br><br>
+    <div id="wrapper">
+      <input type="button" class="size" value="1" onclick="next1()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="2" onclick="next2()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="3" onclick="next3()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="4" onclick="next4()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="5" onclick="next5()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="6" onclick="next6()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="7" onclick="next7()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="8" onclick="next8()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="9" onclick="next9()">&nbsp;&nbsp;&nbsp;&nbsp; 
+      <input type="button" class="size" value="10" onclick="next10()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="11" onclick="next11()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="12" onclick="next12()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="13" onclick="next13()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="14" onclick="next14()">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" class="size" value="15" onclick="next15()">
+</div><br><br><br>
+    <table align="left" width="50%" >
+        <tr>
+          <td>
+          <h3 id="Question">Question</h3><br>       
+          </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="radio" id="opt1" name="options" style="height:20px; width:20px;""><span id="ch1"> Option </span><br><br>
+            </td>
+        </tr>
+        <tr>
+          <td>
+          <input type="radio" id="opt2" name="options" style="height:20px; width:20px;"><span id="ch2"> Option </span><br><br>
+            </td>
+        </tr>
+        <tr>
+          <td>
+          <input type="radio" id="opt3" name="options" style="height:20px; width:20px;"><span id="ch3"> Option </span><br><br>
+            </td>
+        </tr>
+        <tr>
+          <td>
+          <input type="radio" id="opt4" name="options" style="height:20px; width:20px;"><span id="ch4"> Option </span><br><br>
+            </td>       
+        </tr>
+        <tr>
+         <td align="center">
+            <input type="button" class="size" name="b2" id="Previous" value="Previous" onclick="prev()" style="float:left;" />
+          <input type="submit" class="size" name="submit" value="Submit" id="validate" onclick="validate()">
+          <input type="button" class="size" name="b1" id="next" value="Next" onclick="next()" style="float:right;" />
+         </td>
+        </tr>
+      </table>
+  </body>
+</html>
